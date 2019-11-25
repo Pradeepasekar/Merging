@@ -14,9 +14,9 @@ public class Qus1 {
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.greenstechnologys.com/");
 		Thread.sleep(5000);
-		TakesScreenshot tk=(TakesScreenshot)driver;
+		TakesScreenshot s=(TakesScreenshot)driver;
 		Thread.sleep(5000);
-		File src = tk.getScreenshotAs(OutputType.FILE);
+		File src = s.getScreenshotAs(OutputType.FILE);
 		Thread.sleep(5000);
 	    File des=new File("C:\\Users\\samsung\\Desktop\\eclipse\\pradeepa sekar\\Selenium7thDay\\Screen \\ pradeepa1.png");
 	    Thread.sleep(5000);
