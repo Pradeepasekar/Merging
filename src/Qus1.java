@@ -21,6 +21,8 @@ public class Qus1 {
 	    File des=new File("C:\\Users\\samsung\\Desktop\\eclipse\\pradeepa sekar\\Selenium7thDay\\Screen \\ pradeepa1.png");
 	    Thread.sleep(5000);
 	    FileUtils.copyFile(src, des);
+	    FileUtils.copyFile(src, des);
+
 		
 		
 	}
