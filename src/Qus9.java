@@ -10,7 +10,7 @@ public class Qus9 {
 		driver.get("https://www.flipkart.com/");
 		WebElement a = driver.findElement(By.xpath("//input[@name='q']"));
 		a.sendKeys("iphone");
-		WebElement b = driver.findElement(By.xpath("//button[@class='vh79eN']"));
-		b.click();
+		WebElement s = driver.findElement(By.xpath("//button[@class='vh79eN']"));
+		s.click();
 
 }}
